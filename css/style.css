@@ -1,0 +1,773 @@
+/*
+Author: Sakib Shamin;
+Date Created: 11-14-16;
+
+*/
+
+/*Global CSS*/
+
+@font-face
+{
+	src: url(../fonts/exo-italic.ttf),
+		 url(../fonts/exo-italic.eot),
+		 url(../fonts/exo-medium.ttf),
+		 url(../fonts/exo-medium.eot),
+		 url(../fonts/exo-regular.ttf),
+		 url(../fonts/exo-regular.eot),
+		 url(../fonts/exo-thin.ttf),
+		 url(../fonts/exo-thin.eot);
+}
+
+body
+{
+	font-family: 'Exo', sans-sarif;
+	color: #9a9b9e;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.uppercase
+{
+	text-transform: uppercase;
+}
+
+.red-texts
+{
+	color: #ff6d6d;
+}
+
+.white-texts
+{
+    color: #fff;
+}
+
+button,
+input
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+button
+{
+	background: #ff6d6d;
+	border: none;
+}
+
+h2, 
+h3,
+ul a:hover
+{
+    color: #282828;
+}
+
+h2
+{
+    padding-bottom: 30pt;
+}
+
+.macbook-holder img,
+.fifth-section img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.italic
+{
+	font-style: italic;
+    padding-bottom: 90px;
+}
+
+input[type=text],
+input[type=password]
+{
+    border: 1px solid;
+}
+
+.signup input[type=text],
+.signup input[type=password]
+{
+    width: 100%;
+}
+
+label
+{
+    font-weight: 400;
+}
+
+a
+{
+    color: inherit;
+}
+
+/*First Section*/
+
+.first-section
+{
+	background: url(../images/video_background.png);
+}
+
+h1
+{
+	font-weight: 100;
+	color: #606062
+}
+
+.first-section a
+{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.sorrounded-by-stars
+{
+	font-size: 10pt;
+}
+
+/*Second Section*/
+
+.second-section
+{
+	background: url(../images/second_section_background.png);
+	background-repeat: no-repeat;
+}
+
+/*Third Section*/
+
+.third-section
+{
+    background: url(../images/third_section_background.png);
+    background-position-y: -31px;
+}
+
+.third-section h2
+{
+    padding-bottom: 90px;
+}
+
+.third-section img
+{
+    margin: 0 auto;
+}
+
+.third-section h3
+{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+/*Forth Section*/
+
+.forth-section
+{
+    background: url(../images/forth_section_background_2.png);
+    background-repeat: no-repeat;
+}
+
+/*Fifth Section*/
+
+.fifth-section
+{
+    background: url(../images/fifth_section_background.png);
+}
+
+.square
+{
+    height: 78px;
+    width: 78px;
+    background: #4e4e5e;
+    margin: 0 auto
+}
+
+#logo2
+{
+    margin-top: 5px;
+}
+
+#logo3
+{
+    margin-top: -12px;
+}
+
+/*Sixth Section*/
+
+.sixth-section img
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*Seventh Section*/
+
+.seventh-section
+{
+    background: #323969;
+}
+
+.signup input,
+.signup button
+{
+    margin-top: 20px;
+}
+
+.trial
+{
+    position: relative;
+}
+
+.trial img
+{
+    position: absolute;
+}
+
+.signup input
+{
+    background: #474d78;
+    border-color: #999cb4;
+}
+
+.signup label
+{
+    color: #f6f5f3;
+    position: absolute;
+    left: 40px;
+    bottom: 5px;
+}
+
+#termsAndServices
+{
+    padding-top: 48px;
+}
+
+#termsAndServices a
+{
+    text-decoration: underline;
+}
+
+#termsAndServices a:hover
+{
+    cursor: pointer;
+    color: inherit;
+}
+
+/*Eighth Section*/
+
+.eighth-section
+{
+    background: url(../images/footer_background.png);
+    background-repeat: no-repeat;
+    background-position-x: 646px;
+    background-position-y: -1067px;
+    padding-bottom: 20px;
+}
+
+#logo
+{
+    margin-top: 13px;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+ul:not(.social-media)
+{
+    padding-left: 0px;
+}
+
+.social-media li
+{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.newsletter div
+{
+    position: relative;
+}
+
+.newsletter input[type=text]
+{
+    width: 100%;
+}
+
+.newsletter label
+{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.newsletter input[type=image]
+{
+    position: absolute;
+    right: -1px;
+}
+
+/*Media Query*/
+
+@media (max-width: 767px)
+{
+	body
+	{
+		font-size: 8pt;
+	}
+
+	h1
+	{
+		font-size: 24pt;
+		padding-left: 33px;
+		padding-right: 33px;
+	}
+
+	.first-section button
+	{
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+
+	h2
+	{
+		font-size: 16pt;
+	}
+
+	.first-section
+	{
+		padding-top: 88px;
+		padding-bottom: 78px;
+	}
+
+    .second-section
+    {
+        background: #fff;
+        padding-top: 76px;
+        padding-bottom: 50px;
+    }
+
+    .third-section
+    {
+        background: #f6f5f3;
+        padding-top: 22px;
+        padding-bottom: 23px;
+    }
+
+    .forth-section
+    {
+        padding-top: 40px;
+        padding-bottom: 28px;
+        background-position-y: 70px;
+    }
+
+    .macbook-holder
+    {
+        display: none;
+    }
+
+    .fifth-section
+    {
+        padding-top: 44px;
+        padding-bottom: 28px;
+    }
+
+    .fifth-section img
+    {
+        display: none;
+    }
+
+    .sixth-section
+    {
+        padding-top: 40px;
+    }
+
+    .sixth-section p:not(.red-text)
+    {
+        padding: 0px 0px 40px;
+    }
+
+    .seventh-section
+    {
+        padding-top: 40px;
+        padding-bottom: 19px;
+    }
+
+    .trial-xs 
+    {
+        position: relative;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .trial-xs img
+    {
+        position: absolute;
+        top: 20px;
+    }
+
+    .signup button
+    {
+        width: 100%;
+    }
+
+    .newsletter input[type=image]
+    {
+        width: 42px;
+        bottom: -13px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	body
+	{
+		font-size: 10pt;
+	}
+
+	h1
+	{
+		font-size: 38pt;
+		padding-left: 105px;
+		padding-right: 105px;
+	}
+
+	.first-section button
+	{
+		padding-left: 29px;
+		padding-right: 29px;
+	}
+
+	h2
+	{
+		font-size: 25pt;
+	}
+
+	.first-section
+	{
+		padding-top: 140px;
+		padding-bottom: 124px;
+	}
+
+    .second-section
+    {
+        background-position: 600px -230px;
+        padding-top: 121px;
+        padding-bottom: 38px;
+    }
+
+	.second-section-texts
+	{
+		padding-right: 19px;
+	}
+
+    .third-section
+    {
+        padding-top: 83px;
+        padding-bottom: 37px;
+        background-position-x: -75px;
+    }
+
+    .forth-section
+    {
+        padding-top: 60px;
+        padding-bottom: 42px;
+    }
+
+    .macbook-holder
+    {
+        padding-top: 50px;
+    }
+
+    .fifth-section
+    {
+        padding-top: 70px;
+        padding-bottom: 44px;
+    }
+
+    .sixth-section
+    {
+        padding-top: 60px;
+    }
+
+    .sixth-section p:not(.red-texts)
+    {
+        padding: 0px 98px 60px;
+    }
+
+    .seventh-section
+    {
+        padding-top: 64px;
+        padding-bottom: 30px;
+    }
+
+    .trial p
+    {
+        padding-left: 35px;
+    }
+
+    .trial img
+    {
+        top: 25px;
+        left: 30px;
+    }
+
+    .signup button
+    {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .newsletter input[type=image]
+    {
+        width: 45px;
+        bottom: -13px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	body
+	{
+		font-size: 13pt;
+	}
+
+	h1
+	{
+		font-size: 49pt;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.first-section button
+	{
+		padding-left: 37px;
+		padding-right: 37px;
+	}
+
+	h2
+	{
+		font-size: 32pt;
+	}
+
+	.first-section
+	{
+		padding-top: 180px;
+		padding-bottom: 160px;
+	}
+
+    .second-section
+    {
+        background-position: 800px -116px;
+        padding-top: 157px;
+        padding-bottom: 45px;
+    }
+
+	.second-section-texts
+	{
+		padding-right: 0px;
+	}
+
+    .third-section
+    {
+        padding-top: 107px;
+        padding-bottom: 48px;
+    }
+
+    .forth-section
+    {
+        padding-top: 80px;
+        padding-bottom: 56px;
+    }
+
+    .fifth-section
+    {
+        padding-top: 90px;
+        padding-bottom: 57px;
+    }
+
+    .sixth-section
+    {
+        padding-top: 80px;
+    }
+
+    .sixth-section p:not(.red-texts)
+    {
+        padding: 0px 129px 80px;
+    }
+
+    .seventh-section
+    {
+        padding-top: 82px;
+        padding-bottom: 39px;
+    }
+
+    .trial img
+    {
+        left: 35px;
+        top: 20px;
+    }
+
+    .trial p
+    {
+        padding-left: 53px;
+    }
+
+    .signup button
+    {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .newsletter input[type=image]
+    {
+        bottom: -14px;
+        width: 53px;
+    }
+}
+
+@media (min-width: 1200px)
+{
+	body
+	{
+		font-size: 16pt;
+	}
+
+	h1
+	{
+		font-size: 60pt;
+		padding-left: 165px;
+		padding-right: 165px;
+	}
+
+	.first-section button
+	{
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+
+	h2
+	{
+		font-size: 39pt;
+	}
+
+	.left-margin
+	{
+		/*margin-left: 8.3%;*/
+	}
+
+	.first-section
+	{
+		padding-top: 220px;
+		padding-bottom: 195px;
+	}
+
+	.sorrounded-by-stars
+	{
+		font-size: 14pt;
+	}
+
+	.second-section
+	{
+		background-position-x: 900px;
+		padding-top: 190px;
+		padding-bottom: 55px;
+	}
+
+	.second-section-texts
+	{
+		padding-right: 48px;
+	}
+
+    .third-section
+    {
+       padding-top: 130px;
+       padding-bottom: 59px;
+    }
+
+    .forth-section
+    { 
+        padding-top: 100px;
+        padding-bottom: 20px;
+        background-position-y: -115px;
+    }
+
+    .macbook-holder
+    {
+        width: 630px;
+        margin-left: -75px;
+    }
+
+    .forth-section-texts
+    {
+        padding-left: 87px;
+        padding-right: 0px;
+    }
+
+    .fifth-section
+    {
+        padding-top: 110px;
+        padding-bottom: 70px;
+    }
+
+    .sixth-section
+    {
+        padding-top: 100px;
+    }
+
+    .sixth-section p:not(.red-texts)
+    {
+        padding: 0px 150px 100px;
+    }
+
+    .seventh-section
+    {
+        padding-top: 100px;
+        padding-bottom: 48px;
+    }
+
+    .trial p
+    {
+        padding-left: 35px;
+    }
+
+    .trial img
+    {
+        left: 55px;
+        top: 10px;
+    }
+
+    .signup button
+    {
+        padding-left: 84px;
+        padding-right: 84px;
+    }
+
+    .eighth-section
+    {
+        padding-top: 70px;
+        padding-bottom: 35px;
+    }
+
+    .newsletter input[type=text]
+    {
+        width: 75%;
+    }
+
+    .newsletter input[type=image]
+    {
+        bottom: -14px;
+        width: 57px;
+        right: 89px;
+    }
+
+    ul
+    {
+        padding-top: 5px;
+    }
+}
